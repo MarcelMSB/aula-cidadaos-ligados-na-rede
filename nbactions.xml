@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+    <action>
+        <actionName>CUSTOM-Deploy no Wildfly Local</actionName>
+        <displayName>Deploy no Wildfly Local</displayName>
+        <goals>
+            <goal>clean</goal>
+            <goal>wildfly:deploy</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-Undeploy no Wildfly</actionName>
+        <displayName>Undeploy no Wildfly</displayName>
+        <goals>
+            <goal>wildfly:undeploy</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-Finalizar Wildfly</actionName>
+        <displayName>Finalizar Wildfly</displayName>
+        <goals>
+            <goal>wildfly:shutdown</goal>
+        </goals>
+    </action>
+</actions>
